@@ -1,20 +1,16 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-	list-style-type: none;
+/**HEADER**/
+
+.body{
+	background-color: #F6F8F9;
 }
 
-head, body{
-	background: #F6F8F9;
-}
-
-main{
+.main{
 	z-index: 2;
 }
 
-header{
+.fixed{
+	background-color: #F6F8F9;
+	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -22,36 +18,34 @@ header{
 }
 
 .navigation{
-	width: 1440px;
-	height: 50px;
-	background-color: #F6F8F9;
+	width: 100%
 }
 
-
-h1{
-	width: 38px;
-	height: 15px;
-	vertical-align: middle;
+.logo{
+	margin-top: 18px;
+	margin-right: 92px;
 	margin-left: 20px;
+	display: inline-block;
 }
 
-nav{
+.nav-bar{
 	display: inline-block;
-	vertical-align: middle;
-	margin-left: 150px;
 }
 
-nav ul li{
+.nav-li{
 	display: inline-block;
+	padding: 25px;
+	font-size: 11px;
+	color: #343638;
 }
 
 .pic{
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
-nav a{
+.nav-a, .active{
 	color: gray;
 	font-family: helvetica;
 	font-size: 11px;
@@ -66,10 +60,8 @@ nav a{
 	color: #343638;
 }
 
-.box1{
-	width: 360px;
-	height: 350px;
-}
+
+   /*SECTION1*/
 
 .s1{
 	width: 1160px;
@@ -78,7 +70,12 @@ nav a{
 	margin-top: 75px;
 }
 
-h2, h3{
+.box1{
+	width: 360px;
+	height: 350px;
+}
+
+.trend, .texting, .happ{
 	font-family: helvetica;
 	font-size: 24px;
 	font-weight: bold;
@@ -86,10 +83,6 @@ h2, h3{
 	text-transform: uppercase;
 }
 
-h3{
-	font-size: 16px;
-	text-transform: none;
-}
 
 .box1, .box2, .box3{
 	width: 360px;
@@ -107,10 +100,11 @@ h3{
 	margin-top: 40px;
 }
 
-h3{
+.texting{
 	font-family: Helvetica;
 	font-size: 16px;
 	font-weight: bold;
+	text-transform: none;
 	color: #ffffff;
 	position: absolute;
 	top: 28px;
@@ -123,22 +117,28 @@ h3{
 	background-color: #ffffff;
 }
 
-p, span{
+.p, .span{
+	width: 275px;
 	text-align: left;
 	color: #A6ADB4;
 	padding-top: 76px;
 }
 
-.time, p{
+.time, .p{
 	margin-left: 31px;
 }
 
+     /*SECTION2*/
+
 .s2{
+	margin: 0 auto;
 	width: 1160px;
 	height: 900px;
-	margin-left: 55px;
-	margin-top: 58px;
 	display: inline-block;
+}
+
+.happ{
+	margin-top: 50px;
 }
 
 .box4{
@@ -170,9 +170,11 @@ p, span{
 
 .pic5{
 	padding-top: 40px;
+	display: block;
 }
 
 .pic6, .pic7{
 	padding-bottom: 102px;
+	display: block;
 }
 
